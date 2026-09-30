@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaikchi — Portfolio</title>
+  <meta name="description"
+    content="Zaikchi — Creative Portfolio. Designer & Developer crafting meaningful digital experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== CURSOR ========== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ========== LOADER ========== -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-name">zaikchi</span>
+      <div class="loader-bar">
+        <div class="loader-fill" id="loaderFill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== NAV ========== -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo" id="nav-logo">zaikchi</a>
+    <div class="nav-links" id="nav-links">
+      <a href="#work" class="nav-link" data-text="Work">Work</a>
+      <a href="#about" class="nav-link" data-text="About">About</a>
+      <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+    </div>
+    <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ========== MOBILE MENU ========== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#work" class="mobile-link" id="mm-work">Work</a>
+    <a href="#about" class="mobile-link" id="mm-about">About</a>
+    <a href="#contact" class="mobile-link" id="mm-contact">Contact</a>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Creative Portfolio — 2026</div>
+      <h1 class="hero-title">
+        <span class="word" data-word="Design">Design</span>
+        <span class="hero-ampersand">&amp;</span>
+        <span class="word" data-word="Develop">Develop</span>
+      </h1>
+      <p class="hero-sub">
+        — crafting meaningful digital<br />experiences that matter
+      </p>
+      <a href="#work" class="hero-cta" id="hero-cta">
+        <span>Explore Work</span>
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </a>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <img src="images/hero_z.jpg" alt="Zaikchi Z" class="hero-img" id="heroImg" />
+      </div>
+      <div class="hero-scroll-hint">
+        <div class="hero-scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE ========== -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <div class="marquee-group">
+        <span>Design</span><span class="marquee-dot">·</span>
+        <span>Development</span><span class="marquee-dot">·</span>
+        <span>Branding</span><span class="marquee-dot">·</span>
+        <span>Motion</span><span class="marquee-dot">·</span>
+        <span>UI/UX</span><span class="marquee-dot">·</span>
+        <span>Strategy</span><span class="marquee-dot">·</span>
+        <span>Cinematography</span><span class="marquee-dot">·</span>
+        <span>Art Direction</span><span class="marquee-dot">·</span>
+        <span>Design</span><span class="marquee-dot">·</span>
+        <span>Development</span><span class="marquee-dot">·</span>
+        <span>Branding</span><span class="marquee-dot">·</span>
+        <span>Motion</span><span class="marquee-dot">·</span>
+        <span>UI/UX</span><span class="marquee-dot">·</span>
+        <span>Strategy</span><span class="marquee-dot">·</span>
+        <span>Cinematography</span><span class="marquee-dot">·</span>
+        <span>Art Direction</span><span class="marquee-dot">·</span>
+        <span>Design</span><span class="marquee-dot">·</span>
+        <span>Development</span><span class="marquee-dot">·</span>
+        <span>Branding</span><span class="marquee-dot">·</span>
+        <span>Motion</span><span class="marquee-dot">·</span>
+        <span>UI/UX</span><span class="marquee-dot">·</span>
+        <span>Strategy</span><span class="marquee-dot">·</span>
+        <span>Cinematography</span><span class="marquee-dot">·</span>
+        <span>Art Direction</span><span class="marquee-dot">·</span>
+      </div>
+      <div class="marquee-group" aria-hidden="true">
+        <span>Design</span><span class="marquee-dot">·</span>
+        <span>Development</span><span class="marquee-dot">·</span>
+        <span>Branding</span><span class="marquee-dot">·</span>
+        <span>Motion</span><span class="marquee-dot">·</span>
+        <span>UI/UX</span><span class="marquee-dot">·</span>
+        <span>Strategy</span><span class="marquee-dot">·</span>
+        <span>Cinematography</span><span class="marquee-dot">·</span>
+        <span>Art Direction</span><span class="marquee-dot">·</span>
+        <span>Design</span><span class="marquee-dot">·</span>
+        <span>Development</span><span class="marquee-dot">·</span>
+        <span>Branding</span><span class="marquee-dot">·</span>
+        <span>Motion</span><span class="marquee-dot">·</span>
+        <span>UI/UX</span><span class="marquee-dot">·</span>
+        <span>Strategy</span><span class="marquee-dot">·</span>
+        <span>Cinematography</span><span class="marquee-dot">·</span>
+        <span>Art Direction</span><span class="marquee-dot">·</span>
+        <span>Design</span><span class="marquee-dot">·</span>
+        <span>Development</span><span class="marquee-dot">·</span>
+        <span>Branding</span><span class="marquee-dot">·</span>
+        <span>Motion</span><span class="marquee-dot">·</span>
+        <span>UI/UX</span><span class="marquee-dot">·</span>
+        <span>Strategy</span><span class="marquee-dot">·</span>
+        <span>Cinematography</span><span class="marquee-dot">·</span>
+        <span>Art Direction</span><span class="marquee-dot">·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== NOTHIN EDITORIAL MANIFESTO (SHRINK-TO-RIGHT) ========== -->
+  <section class="manifesto-section" id="manifesto">
+    <div class="manifesto-track" id="manifestoTrack">
+      <div class="manifesto-sticky" id="manifestoSticky">
+
+        <!-- Top Editorial Headline (Initially large, fades/moves up on scroll) -->
+        <div class="manifesto-header" id="manifestoHeader">
+          <h2 class="manifesto-title">
+            Most brands produce content.<br />
+            We prefer ideas.
+          </h2>
+        </div>
+
+        <!-- Dynamic Stage (Holds left editorial text & right shrinking media box) -->
+        <div class="manifesto-stage" id="manifestoStage">
+          <!-- Left: Editorial text revealed on scroll -->
+          <div class="manifesto-text-col" id="manifestoTextCol">
+            <span class="manifesto-step-label">( The step aside )</span>
+            <p class="manifesto-step-p">
+              In a world of infinite images, the rare thing is clarity. Images defend ideas,
+              experiences shift perception, and brands change how people see the world.
+            </p>
+          </div>
+
+          <!-- Dynamic Transforming Media Box (shrinks from full width down to right column) -->
+          <div class="manifesto-media-wrapper" id="manifestoMediaWrapper">
+            <div class="manifesto-media-card" id="manifestoMediaCard">
+              <div class="manifesto-card-top">
+                <span class="manifesto-card-brand">in_cognita</span>
+                <div class="manifesto-card-badge">
+                  <span>MENU</span>
+                  <span class="manifesto-dots">••</span>
+                </div>
+              </div>
+              <div class="manifesto-card-img-wrap">
+                <img src="images/project_03.jpg" alt="In Cognita Vision" class="manifesto-card-img"
+                  id="manifestoCardImg" />
+                <div class="manifesto-card-overlay"></div>
+              </div>
+              <div class="manifesto-card-bottom">
+                <span class="manifesto-card-num">02</span>
+                <span class="manifesto-card-label">Impulsion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WORK ========== -->
+  <section class="work" id="work">
+    <!-- Sticky WORKS title bar (docks right below the zaikchi logo) -->
+    <div class="work-sticky-bar" id="workStickyBar">
+      <div class="work-sticky-inner">
+        <h2 class="work-sticky-title">WORKS</h2>
+      </div>
+    </div>
+
+    <div class="work-container">
+      <!-- Top Editorial Row with room for WORKS and statement -->
+      <div class="work-intro-row">
+        <div class="work-intro-spacer" aria-hidden="true">
+          <!-- Dedicated room for the sticky WORKS text -->
+        </div>
+      </div>
+
+      <!-- Editorial Projects List -->
+      <div class="projects-editorial">
+
+        <!-- Project 01: Website tentang Mobil -->
+        <article class="editorial-card editorial-card--left" id="proj-01" data-index="01">
+          <a href="#" class="editorial-card-link">
+            <div class="editorial-meta-top">
+              <span class="editorial-category">01 / Automotive Experience</span>
+              <span class="editorial-year">2026</span>
+            </div>
+            <div class="editorial-img-wrap">
+              <img src="images/project_tes1.jpg" alt="Aether Hyperion Electric Supercar Website"
+                class="editorial-img" />
+              <div class="editorial-img-overlay">
+                <span class="editorial-view-btn">View Website ↗</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 02: Portofolio Website Lainnya -->
+        <article class="editorial-card editorial-card--right" id="proj-02" data-index="02">
+          <a href="#" class="editorial-card-link">
+            <div class="editorial-meta-top">
+              <span class="editorial-category">02 / Minimalist Portfolio</span>
+              <span class="editorial-year">2025</span>
+            </div>
+            <div class="editorial-img-wrap">
+              <img src="images/project_tes2.jpeg" alt="Archetype Studio Editorial Portfolio" class="editorial-img" />
+              <div class="editorial-img-overlay">
+                <span class="editorial-view-btn">Explore Portfolio ↗</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <!-- Project 03: Portofolio Cinematography -->
+        <article class="editorial-card editorial-card--wide" id="proj-03" data-index="03">
+          <a href="#" class="editorial-card-link">
+            <div class="editorial-meta-top">
+              <span class="editorial-category">03 / Cinematography &amp; Visual Direction</span>
+              <span class="editorial-year">2026</span>
+            </div>
+            <div class="editorial-img-wrap editorial-img-wrap--cinema">
+              <img src="images/project_tes3.jpeg" alt="Nocturne Frames Cinematography Showcase" class="editorial-img" />
+              <div class="editorial-img-overlay">
+                <span class="editorial-view-btn">Watch Reel ▷</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+      </div>
+
+      <div class="work-footer">
+        <a href="#" class="work-all-link" id="all-projects-link">All Projects &amp; Archives
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-img-col">
+        <div class="about-img-frame">
+          <img src="images/avatar.jpg" alt="Zaikchi — Portrait" class="about-img" />
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">0+</span>
+            <span class="stat-label">Years<br />Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">0+</span>
+            <span class="stat-label">Projects<br />Completed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">0+</span>
+            <span class="stat-label">Happy<br />Clients</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text-col">
+        <span class="section-label">About Me</span>
+        <h2 class="about-title">Halo, I'm<br /><em>Zaikchi</em></h2>
+        <p class="about-body">
+          [Your intro here — e.g. A designer and developer passionate about crafting digital experiences that feel
+          intuitive, beautiful, and purposeful. Based in Indonesia, working globally.]
+        </p>
+        <p class="about-body">
+          [Add your second paragraph — e.g. I believe great design isn't just about aesthetics; it's about solving
+          problems in an elegant way. Every pixel, interaction, and decision is intentional.]
+        </p>
+        <div class="about-skills">
+          <div class="skill-group">
+            <span class="skill-group-title">Design</span>
+            <div class="skill-tags">
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">UI/UX</span>
+              <span class="skill-tag">Motion</span>
+              <span class="skill-tag">Branding</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <span class="skill-group-title">Code</span>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML/CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="about-cv-link" id="cv-link">Download CV
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M12 15L12 3M12 15L8 11M12 15L16 11M5 19H19" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services" id="services">
+    <div class="section-header">
+      <span class="section-label">What I Do</span>
+      <h2 class="section-title">Services</h2>
+    </div>
+    <div class="services-list">
+      <div class="service-item" id="svc-01">
+        <span class="service-num">01</span>
+        <div class="service-body">
+          <h3 class="service-title">UI / UX Design</h3>
+          <p class="service-desc">Designing interfaces that feel natural and look stunning — from wireframes to
+            pixel-perfect final deliverables.</p>
+        </div>
+        <div class="service-arrow">→</div>
+      </div>
+      <div class="service-item" id="svc-02">
+        <span class="service-num">02</span>
+        <div class="service-body">
+          <h3 class="service-title">Web Development</h3>
+          <p class="service-desc">Building fast, accessible, and beautifully coded websites and web applications with
+            modern technologies.</p>
+        </div>
+        <div class="service-arrow">→</div>
+      </div>
+      <div class="service-item" id="svc-03">
+        <span class="service-num">03</span>
+        <div class="service-body">
+          <h3 class="service-title">Brand Identity</h3>
+          <p class="service-desc">Crafting visual identities that communicate clearly, feel authentic, and leave a
+            lasting impression.</p>
+        </div>
+        <div class="service-arrow">→</div>
+      </div>
+      <div class="service-item" id="svc-04">
+        <span class="service-num">04</span>
+        <div class="service-body">
+          <h3 class="service-title">Cinematography</h3>
+          <p class="service-desc">Bringing interfaces and brands to life through thoughtful animation and
+            micro-interaction design.</p>
+        </div>
+        <div class="service-arrow">→</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="contact-headline">
+        Let's build<br />something<br /><em>great</em> together.
+      </h2>
+      <div class="contact-links">
+        <a href="mailto:hello@zaikchi.com" class="contact-email" id="contact-email">mzakiwinanda@gmail.com</a>
+        <div class="contact-socials">
+          <a href="https://www.instagram.com/mzakiwinanda?stkn=MWpieXN3MGFiZWc4bQ==" class="social-link"
+            id="social-instagram">Instagram ↗</a>
+          <a href="https://github.com/ZakiWinanda" class="social-link" id="social-github">GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <span class="footer-name">zaikchi</span>
+    <span class="footer-copy">© 2026 All rights reserved</span>
+    <a href="#hero" class="footer-back" id="back-to-top">Back to top ↑</a>
+  </footer>
+
+  <script src="lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
